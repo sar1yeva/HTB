@@ -78,8 +78,6 @@ nmap -p- --min-rate 1000 -Pn 10.129.140.210
 
 ### Command breakdown
 
-#### `-p-`
-
 ```text
 -p-
 ```
@@ -94,8 +92,6 @@ The port range is effectively:
 
 This is particularly useful when a service is running on a non-standard port.
 
-#### `--min-rate 1000`
-
 ```text
 --min-rate 1000
 ```
@@ -103,8 +99,6 @@ This is particularly useful when a service is running on a non-standard port.
 Requests that Nmap send at least approximately 1,000 packets per second, helping speed up the scan.
 
 This should be used carefully because aggressive scan rates can increase network traffic and potentially affect reliability.
-
-#### `-Pn`
 
 ```text
 -Pn
